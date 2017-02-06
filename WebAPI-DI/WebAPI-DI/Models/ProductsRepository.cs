@@ -8,7 +8,7 @@ namespace ProductStore.Models
     public class ProductRepository : IDisposable, ProductStore.Models.IProductRepository
     {
         private ProductsContext db = new ProductsContext();
-
+druga promena
         public IEnumerable<Product> GetAll()
         {
             return db.Products;
